@@ -1,0 +1,183 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+
+}
+
+.container {
+    max-width: 1150px;
+    padding: 0 15px;
+    margin: 0 auto;
+    background:rgba(242, 206, 218, 0.3);
+    background-size: cover;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    display:flex;
+    list-style: none;
+    width: 80%;
+
+}
+
+.menu li {
+    margin: 0 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: rgba(21, 1, 1, 0.6);
+
+}
+
+.buttonbuy {
+    font-family: 'Hind Madurai', sans-serif;
+    font-weight: 700;
+    color: white;
+    padding: 1em 2em;
+    border-radius: 5px;
+    background: #D23166;
+  } 
+
+.logo {
+    justify-content: flex-start;
+}
+
+.container2 {
+    display: flex;
+    max-width: 1150px;
+    padding: 0 15px;
+    margin: 0 auto;
+    background:rgba(242, 206, 218, 0.3);
+    background-size: cover;
+    /*justify-content: space-around;*/
+    align-self: baseline;
+    
+}
+
+.textice {
+    display: flex;
+    flex-direction: column;
+    align-content:center;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 196px;
+    width: 80%;
+}
+
+.ice-cream {
+    display: flex;
+    max-width: 50%;
+    margin-bottom: 100px;
+    margin-top: 37px;
+}
+
+.sweetfun {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 16.41px;
+}
+
+.feel {
+    font-family: 'Hind Madurai', sans-serif;
+    font-weight: 700;
+    font-size: 57.33px;
+    line-height: 69.08px;
+    opacity: 0.9;
+}
+
+.somefood {
+    font-family: 'Hind Madurai', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    opacity: 0.6;
+}
+
+.disclaymer {
+    display:flex;
+    max-width: 1150px;
+    padding: 0 15px;
+    margin: 0 auto;
+    margin-top: 75px;
+    height: 200px;
+    align-items: baseline;
+    justify-content: space-around;
+    text-align: center;
+    background:rgba(255, 255, 255, 0.3);
+}
+
+.shipping {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 200px;
+    padding: 26px;
+    font-family: 'Hind Madurai', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 2;
+}
+
+.package {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 200px;
+    padding: 26px;
+    font-family: 'Hind Madurai', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 2;
+}
+
+.money {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 200px;
+    padding: 26px;
+    font-family: 'Hind Madurai', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 2;
+}
+
+.delivery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 200px;
+    padding: 26px;
+    font-family: 'Hind Madurai', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 2;
+}
+
+.size {
+    font-family: 'Hind Madurai', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
